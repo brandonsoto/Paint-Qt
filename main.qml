@@ -36,9 +36,6 @@ Window {
                         active: tools.paintColor === color
                         color: modelData
                         onClicked: tools.paintColor = color
-                        Behavior on scale {
-                            NumberAnimation { duration: 50 }
-                        }
                     }
                 }
             }
@@ -56,9 +53,6 @@ Window {
                         thickness: modelData
                         text: thickness
                         onClicked: tools.thickness = thickness
-                        Behavior on color {
-                            ColorAnimation { duration: 150 }
-                        }
                     }
                 }
             }

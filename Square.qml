@@ -18,4 +18,8 @@ Rectangle {
         anchors.fill: parent
         onClicked: root.clicked()
     }
+
+    Behavior on scale {
+        NumberAnimation { duration: 50 }
+    }
 }

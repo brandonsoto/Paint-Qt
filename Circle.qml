@@ -30,4 +30,8 @@ Rectangle {
         anchors.fill: parent
         onClicked: root.clicked()
     }
+
+    Behavior on color {
+        ColorAnimation { duration: 150 }
+    }
 }
